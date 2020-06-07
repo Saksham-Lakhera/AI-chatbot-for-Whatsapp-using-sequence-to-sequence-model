@@ -1,5 +1,7 @@
 ##Step 1:
+
 Download whatsapp chat file or whatsapp chat history
+
 ##Step 2:
 go to data>chatapp and store whatsapp chat in txt format.
 Edit dataset_create.py and change "chat file name" to your whatsapp chat file name
