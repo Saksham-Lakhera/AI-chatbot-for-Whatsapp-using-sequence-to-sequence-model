@@ -28,4 +28,5 @@ Execute connection.py<br/>
 scan the QR code and write any arbitary number on the termial or any medium for executing code, this will start the chatbot.
 
 ## Result:
-https://github.com/Saksham-Lakhera/AI-chatbot-for-Whatsapp-using-sequence-to-sequence-model/blob/master/data/result.jpeg
+![Alt text](data/result.jpeg?raw=true "Result")
+
