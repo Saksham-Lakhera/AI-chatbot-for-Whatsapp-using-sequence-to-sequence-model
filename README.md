@@ -1,3 +1,5 @@
+I came across an episode of silicon valley where “gilfoyle” creates a chatbot to talk to “Dinesh“, after that moment I realized what if I can do the same with my friends, can they differentiate between me and the chatbot, so to answer this question I have to build the bot. Finally, I built one that can talk to my friends and family members on whatsapp, the model is build using sequence to sequence model.
+
 ## Step 1:
 
 Download whatsapp chat file or whatsapp chat history
