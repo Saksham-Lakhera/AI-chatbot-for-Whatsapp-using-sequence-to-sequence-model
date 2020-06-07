@@ -1,0 +1,12 @@
+scikit-learn
+tensorflow
+tensorlayer
+numpy
+click
+tqdm
+nltk
+emoji
+Selenium
+Time
+Sys
+webdriver_manager
