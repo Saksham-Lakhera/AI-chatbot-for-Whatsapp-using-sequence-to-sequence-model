@@ -144,7 +144,7 @@ while True:
                     person_title = person.find_element_by_class_name('_1wjpf')
                    # print(person_title.get_attribute("title"))
                     user=str(person_title.get_attribute("title"))
-                    if user=='Achisha':
+                    if user=='Username':
                         person_contact = person.find_element_by_class_name('_2EXPL')
                         person_contact.click()
                         person_msg = person.find_element_by_class_name('_2_LEW')
