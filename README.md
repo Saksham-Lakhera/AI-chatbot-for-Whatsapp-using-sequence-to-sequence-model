@@ -3,9 +3,9 @@
 Download whatsapp chat file or whatsapp chat history
 
 ## Step 2:
-go to data>chatapp and store whatsapp chat in txt format.<br/>
+Go to data>chatapp and store whatsapp chat in txt format.<br/>
 Edit dataset_create.py and change "chat file name" to your whatsapp chat file name.<br/>
-change "user name in your chat file" to the required username which is there on your chat file.
+Change "user name in your chat file" to the required username which is there on your chat file.
 
 ## Step 3:
 Execute dataset_create.py
