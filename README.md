@@ -1,4 +1,5 @@
-I came across an episode of silicon valley where “gilfoyle” creates a chatbot to talk to “Dinesh“, after that moment I realized what if I can do the same with my friends, can they differentiate between me and the chatbot, so to answer this question I have to build the bot. Finally, I built one that can talk to my friends and family members on whatsapp, the model is build using sequence to sequence model.
+I came across an episode of silicon valley where “gilfoyle” creates a chatbot to talk to “Dinesh“, after that moment I realized what if I can do the same with my friends, can they differentiate between me and the chatbot, so to answer this question I have to build the bot. Finally, I built one that can talk to my friends and family members on whatsapp, the model is build using sequence to sequence model.<br/>
+For more read https://medium.com/@sakshamlakhera/converting-yourself-into-a-chatbot-and-let-ai-version-of-you-talk-to-your-friends-on-whatsapp-84b51ba32c8f
 
 ## Step 1:
 
