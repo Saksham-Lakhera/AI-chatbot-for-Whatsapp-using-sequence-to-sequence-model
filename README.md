@@ -27,3 +27,5 @@ Go to connection.py and chage username to the name of the person you want to cha
 Execute connection.py<br/>
 scan the QR code and write any arbitary number on the termial or any medium for executing code, this will start the chatbot.
 
+## Result:
+https://github.com/Saksham-Lakhera/AI-chatbot-for-Whatsapp-using-sequence-to-sequence-model/blob/master/data/result.jpeg
