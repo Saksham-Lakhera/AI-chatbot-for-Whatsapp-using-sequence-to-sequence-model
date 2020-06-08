@@ -46,7 +46,7 @@ def inference(seed, top_n):
         sentence = sentence + [w]
     return sentence
 def testdata(seed):
-    data_corpus = "twitter"
+    data_corpus = "chatapp"
 
     #data preprocessing
     metadata, trainX, trainY, testX, testY, validX, validY = initial_setup(data_corpus)
