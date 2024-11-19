@@ -1,35 +1,88 @@
-I came across an episode of silicon valley where “gilfoyle” creates a chatbot to talk to “Dinesh“, after that moment I realized what if I can do the same with my friends, can they differentiate between me and the chatbot, so to answer this question I have to build the bot. Finally, I built one that can talk to my friends and family members on whatsapp, the model is build using sequence to sequence model.<br/>
-For more read [click here](https://medium.com/@sakshamlakhera/converting-yourself-into-a-chatbot-and-let-ai-version-of-you-talk-to-your-friends-on-whatsapp-84b51ba32c8f)
+# AI Chatbot for WhatsApp Using Sequence-to-Sequence Model  
 
-## Step 1:
+This project builds a personalized AI chatbot that mimics your texting style using your WhatsApp chat history. It utilizes a sequence-to-sequence model for generating conversational responses.
 
-Download whatsapp chat file or whatsapp chat history
+---
 
-## Step 2:
-Go to data>chatapp and store whatsapp chat in txt format.<br/>
-Edit dataset_create.py and change "chat file name" to your whatsapp chat file name.<br/>
-Change "user name in your chat file" to the required username which is there on your chat file.
+## Features  
+- **Personalized Responses**: The chatbot learns from your WhatsApp chat history to replicate your texting style.  
+- **Interactive Chat**: Communicate with the bot on WhatsApp for a seamless user experience.  
+- **Customizable Training**: Train the bot on specific chat data to adjust its tone and style.  
 
-## Step 3:
-Execute dataset_create.py
+---
 
-##### python dataset_create.py
-A data.txt file is created
+## Requirements  
 
-## Step 4:
-Execute data.py
-##### python data.py
+Before running the project, ensure the following dependencies are installed:  
 
-## Step 5:
-Execute main.py
-##### python main.py
-This will start training of your chat bot
+- Python 3.x  
+- TensorFlow  
+- NumPy  
+- Pickle  
+- Selenium (optional, for WhatsApp web interaction)  
 
-## Step 6:
-Go to connection.py and chage username to the name of the person you want to chat, the name should be same as on whatsapp.<br/>
-Execute connection.py<br/>
-scan the QR code and write any arbitary number on the termial or any medium for executing code, this will start the chatbot.
+Install the required libraries using the following command:  
+```bash
+pip install tensorflow numpy pickle-mixin selenium
+```
 
-## Result:
-![Alt text](data/result.jpeg?raw=true "Result")
+## Setup Instructions
+
+1. **Export WhatsApp Chat History**
+   - Open a chat on WhatsApp.
+   - Go to Options > More > Export Chat.
+   - Save the exported .txt file without media attachments.
+
+2. **Prepare Training Data**
+   - Use the preprocess.py script to clean and format the exported chat data.
+   - Example:
+     ```bash
+     python preprocess.py --input chat.txt --output formatted_data.pkl
+     ```
+3. **Train the Model**
+   - Train the sequence-to-sequence model using the prepared data:
+     ```bash
+     python train.py --data formatted_data.pkl --epochs 50 --batch_size 32
+     ```
+
+4. **Run the Chatbot**
+   - Start the chatbot and interact with it:
+     ```bash
+     python chatbot.py
+     ```
+
+## Project Structure
+📁 ai-chatbot-whatsapp  
+├── preprocess.py       # Script to clean and format chat data  
+├── train.py            # Script to train the sequence-to-sequence model  
+├── chatbot.py          # Script to run the chatbot interface  
+├── data/               # Directory to store training data and chat history  
+├── models/             # Directory to save trained models  
+└── README.md           # Project documentation  
+
+## Example Chatbot Interaction
+User: Hey, what's up?  
+Bot: Not much, just chilling. What's up with you?  
+
+User: How’s the weather?  
+Bot: It's pretty good here. How about there?  
+
+<img src="data/result.jpeg" alt="Result" width="200"/>
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push them to your fork.
+4. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgments
+
+- Inspired by the TV show Silicon Valley.
 
