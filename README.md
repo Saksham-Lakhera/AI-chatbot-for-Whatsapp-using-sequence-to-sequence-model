@@ -1,8 +1,9 @@
 # AI Chatbot for WhatsApp Using Sequence-to-Sequence Model  
 
-This project builds a personalized AI chatbot that mimics your texting style using your WhatsApp chat history. It utilizes a sequence-to-sequence model for generating conversational responses.
+Inspired by an episode of Silicon Valley where Gilfoyle creates a chatbot to mimic Dinesh, I decided to create a similar bot that mimics my texting style to chat with friends and family on WhatsApp. This project uses a sequence-to-sequence model to achieve this functionality.
 
----
+For a detailed walkthrough, read the [Medium article](https://sakshamlakhera.medium.com/converting-yourself-into-a-chatbot-and-let-ai-version-of-you-talk-to-your-friends-on-whatsapp-84b51ba32c8f).
+
 
 ## Features  
 - **Personalized Responses**: The chatbot learns from your WhatsApp chat history to replicate your texting style.  
